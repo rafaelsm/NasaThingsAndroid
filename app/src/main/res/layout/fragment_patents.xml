@@ -1,0 +1,38 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="patent"
+            type="br.com.rads.nasathings.patents.model.Patent"/>
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="br.com.rads.nasathings.patents.view.PatentsFragment">
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:id="@+id/patent_name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{patent.title}"/>
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:id="@+id/patent_description_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{patent.description}"/>
+
+        <Button
+            android:id="@+id/button_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="teste"/>
+
+    </LinearLayout>
+
+</layout>
