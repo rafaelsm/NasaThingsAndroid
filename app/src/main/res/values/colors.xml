@@ -21,4 +21,6 @@
     <color name="md_grey_900">#212121</color>
     <color name="black" tools:override="true">#000000</color>
 
+    <color name="black_overlay">#66000000</color>
+
 </resources>

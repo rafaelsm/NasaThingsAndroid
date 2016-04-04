@@ -12,7 +12,7 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
 
-import br.com.rads.nasathings.apod.view.ApodFragment;
+import br.com.rads.nasathings.apod.fragments.ApodFragment;
 import br.com.rads.nasathings.patents.model.Patent;
 import br.com.rads.nasathings.patents.response.PatentsResponse;
 import br.com.rads.nasathings.patents.response.Result;

@@ -17,67 +17,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="016a5017-e700-4bd5-a79a-370ca1128fa6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/MaterialCalendarview_v1_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/ST4_4_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/adapters_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/antlr4_4_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/antlr4_annotations_4_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/antlr4_runtime_4_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/antlr_runtime_3_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/baseLibrary_2_1_0_alpha4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/butterknife_7_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/compilerCommon_2_1_0_alpha4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/compiler_2_1_0_alpha4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/guava_17_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/joda_time_2_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/juniversalchardet_1_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/kotlin_runtime_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/kotlin_stdlib_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/library_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_abego_treelayout_core_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/palette_v7_23_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/NasaApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/view/ApodFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/patents/response/Concepts.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/patents/response/Contact.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/patents/response/Innovator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/patents/response/PatentsResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/patents/response/Result.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/patents/view/PatentsFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/util/DateUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/util/NasaUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_apod.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_patents.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/colors.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/styles.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_23_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_23_2_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_2_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/design_23_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/design_23_2_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_2_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_2_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_23_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_23_2_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/PhotoView_1_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/activity/FullImageActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_full_image.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/view/ApodFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/fragments/ApodFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/proguard-rules.pro" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/service/NasaInterceptor.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/service/NasaInterceptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/service/NasaService.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/service/NasaService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
     </list>
     <ignored path="Nasa Things.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -105,15 +58,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ApodFragment.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/view/ApodFragment.java">
+      <file leaf-file-name="activity_full_image.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_full_image.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32051283">
-              <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.5769231">
+              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+              <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -644,6 +598,11 @@
                 <option name="description" value="Prepare com.android.support:support-vector-drawable:23.2.1" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2321Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.commit451:PhotoView:1.2.5" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComCommit451PhotoView125Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.github.jonisaa:MaterialCalendarview:v1.2.2" />
@@ -1288,6 +1247,11 @@
                 <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2321Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.commit451:PhotoView:1.2.5" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComCommit451PhotoView125Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Prepare com.github.jonisaa:MaterialCalendarview:v1.2.2" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="prepareComGithubJonisaaMaterialCalendarviewV122Library" />
@@ -1484,7 +1448,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4378550368000" />
+        <entry key="$PROJECT_DIR$" value="4378553316000" />
         <entry key="$USER_HOME$/taxija/customer/branch-3.2" value="5686195558000" />
         <entry key="$USER_HOME$/taxija/customer/tag-3.2" value="5686191420000" />
         <entry key="$USER_HOME$/taxija/customer/tag-3.2.1" value="5686197555000" />
@@ -1680,6 +1644,7 @@
                             <option value="$USER_HOME$/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.2.1/support-v4-23.2.1.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jonisaa/MaterialCalendarview/v1.2.2/cd821c17217ad8057dc7984bc84fdec6ffcac3fe/MaterialCalendarview-v1.2.2.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.commit451/PhotoView/1.2.5/44a856dad86c6033034217783d0181d50238cf13/PhotoView-1.2.5.aar" />
                             <option value="$USER_HOME$/Android/sdk/extras/android/m2repository/com/android/databinding/library/1.1/library-1.1.aar" />
                             <option value="$USER_HOME$/Android/sdk/extras/android/m2repository/com/android/databinding/adapters/1.1/adapters-1.1.aar" />
                             <option value="$USER_HOME$/Android/sdk/extras/android/m2repository/com/android/support/animated-vector-drawable/23.2.1/animated-vector-drawable-23.2.1.aar" />
@@ -1832,10 +1797,7 @@
         <option value="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/br/com/rads/nasathings/BuildConfig.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-night/styles.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/NasaApplication.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/patents/PatentsResponse.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/patents/PatentResultResponse.java" />
@@ -1856,7 +1818,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/service/NasaService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/util/NasaUtil.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_apod.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/MainActivity.java" />
@@ -1865,6 +1826,13 @@
         <option value="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/view/ApodFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-night/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/fragments/ApodFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/activity/FullImageActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_full_image.xml" />
       </list>
     </option>
   </component>
@@ -1938,6 +1906,10 @@
               <option name="myItemId" value="values" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles.xml" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1956,10 +1928,6 @@
               <option name="myItemId" value="values" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="colors.xml" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1985,6 +1953,24 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nasa Things" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
@@ -2025,7 +2011,7 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
+              <option name="myItemId" value="apod" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2047,7 +2033,11 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
+              <option name="myItemId" value="apod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2059,6 +2049,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2091,10 +2085,12 @@
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
+      <recent name="br.com.rads.nasathings.apod.activity" />
       <recent name="br.com.rads.nasathings.apod.view" />
       <recent name="br.com.rads.nasathings" />
     </key>
     <key name="android.template.parentActivityClass">
+      <recent name="br.com.rads.nasathings.MainActivity" />
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
@@ -2388,12 +2384,13 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.4864865" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2405,7 +2402,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -2478,7 +2474,7 @@
         <state vertical-scroll-proportion="0.13824885">
           <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
           <folding>
-            <marker date="1459130319000" expanded="true" signature="10:405" placeholder="..." />
+            <marker date="1459733102000" expanded="true" signature="10:589" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -2518,44 +2514,6 @@
           <folding>
             <marker date="1459114465000" expanded="true" signature="66:472" placeholder="..." />
             <marker date="1459114465000" expanded="true" signature="195:462" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53691274">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-          <folding>
-            <marker date="1459126596000" expanded="true" signature="107:933" placeholder="..." />
-            <marker date="1459126596000" expanded="true" signature="231:920" placeholder="..." />
-            <marker date="1459126596000" expanded="true" signature="332:350" placeholder="&quot;Nasa Things&quot;" />
-            <marker date="1459126596000" expanded="true" signature="485:851" placeholder="..." />
-            <marker date="1459126596000" expanded="true" signature="553:571" placeholder="&quot;Nasa Things&quot;" />
-            <marker date="1459126596000" expanded="true" signature="655:831" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2857143">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding>
-            <marker date="1459126999000" expanded="true" signature="10:695" placeholder="..." />
-            <marker date="1459126999000" expanded="true" signature="110:356" placeholder="..." />
-            <marker date="1459126999000" expanded="true" signature="397:507" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32142857">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1459127027000" expanded="true" signature="10:325" placeholder="..." />
-            <marker date="1459127027000" expanded="true" signature="51:312" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -2645,23 +2603,6 @@
       </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/patents/model/Patent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6196581">
-          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-          <folding>
-            <marker date="1459702683000" expanded="true" signature="54:191" placeholder="..." />
-            <marker date="1459702683000" expanded="true" signature="193:233" placeholder="/**...*/" />
-            <marker date="1459702683000" expanded="false" signature="404:415" placeholder=" { " />
-            <marker date="1459702683000" expanded="false" signature="428:434" placeholder=" }" />
-            <marker date="1459702683000" expanded="true" signature="475:551" placeholder="{...}" />
-            <marker date="1459702683000" expanded="false" signature="601:612" placeholder=" { " />
-            <marker date="1459702683000" expanded="false" signature="631:637" placeholder=" }" />
-            <marker date="1459702683000" expanded="true" signature="690:784" placeholder="{...}" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/patents/view/PatentsFragment.java">
@@ -3185,85 +3126,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/ApodResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42735043">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <marker date="1459116280000" expanded="true" signature="90:130" placeholder="/**...*/" />
-            <marker date="1459116280000" expanded="false" signature="623:634" placeholder=" { " />
-            <marker date="1459116280000" expanded="false" signature="646:652" placeholder=" }" />
-            <marker date="1459116280000" expanded="false" signature="690:701" placeholder=" { " />
-            <marker date="1459116280000" expanded="false" signature="718:724" placeholder=" }" />
-            <marker date="1459116280000" expanded="false" signature="760:771" placeholder=" { " />
-            <marker date="1459116280000" expanded="false" signature="790:796" placeholder=" }" />
-            <marker date="1459116280000" expanded="false" signature="848:859" placeholder=" { " />
-            <marker date="1459116280000" expanded="false" signature="890:896" placeholder=" }" />
-            <marker date="1459116280000" expanded="false" signature="931:942" placeholder=" { " />
-            <marker date="1459116280000" expanded="false" signature="960:966" placeholder=" }" />
-            <marker date="1459116280000" expanded="false" signature="1016:1027" placeholder=" { " />
-            <marker date="1459116280000" expanded="false" signature="1056:1062" placeholder=" }" />
-            <marker date="1459116280000" expanded="false" signature="1096:1107" placeholder=" { " />
-            <marker date="1459116280000" expanded="false" signature="1124:1130" placeholder=" }" />
-            <marker date="1459116280000" expanded="false" signature="1178:1189" placeholder=" { " />
-            <marker date="1459116280000" expanded="false" signature="1216:1222" placeholder=" }" />
-            <marker date="1459116280000" expanded="false" signature="1261:1272" placeholder=" { " />
-            <marker date="1459116280000" expanded="false" signature="1294:1300" placeholder=" }" />
-            <marker date="1459116280000" expanded="false" signature="1358:1369" placeholder=" { " />
-            <marker date="1459116280000" expanded="false" signature="1406:1412" placeholder=" }" />
-            <marker date="1459116280000" expanded="false" signature="1442:1453" placeholder=" { " />
-            <marker date="1459116280000" expanded="false" signature="1466:1472" placeholder=" }" />
-            <marker date="1459116280000" expanded="false" signature="1512:1523" placeholder=" { " />
-            <marker date="1459116280000" expanded="false" signature="1542:1548" placeholder=" }" />
-            <marker date="1459116280000" expanded="false" signature="1581:1592" placeholder=" { " />
-            <marker date="1459116280000" expanded="false" signature="1608:1614" placeholder=" }" />
-            <marker date="1459116280000" expanded="false" signature="1660:1671" placeholder=" { " />
-            <marker date="1459116280000" expanded="false" signature="1696:1702" placeholder=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32207206">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <marker date="1459730025000" expanded="true" signature="49:1025" placeholder="{...}" />
-            <marker date="1459730025000" expanded="true" signature="126:281" placeholder="{...}" />
-            <marker date="1459730025000" expanded="true" signature="297:813" placeholder="{...}" />
-            <marker date="1459730025000" expanded="true" signature="314:552" placeholder="{...}" />
-            <marker date="1459730025000" expanded="true" signature="570:807" placeholder="{...}" />
-            <marker date="1459730025000" expanded="true" signature="831:841" placeholder="{" />
-            <marker date="1459730025000" expanded="true" signature="855:861" placeholder="}" />
-            <marker date="1459730025000" expanded="true" signature="879:889" placeholder="{" />
-            <marker date="1459730025000" expanded="true" signature="913:919" placeholder="}" />
-            <marker date="1459730025000" expanded="true" signature="942:952" placeholder="{" />
-            <marker date="1459730025000" expanded="true" signature="1017:1023" placeholder="}" />
-            <marker date="1459730025000" expanded="true" signature="1040:1794" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5">
-          <caret line="65" column="40" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
-          <folding>
-            <marker date="1459728255000" expanded="true" signature="146:3149" placeholder="..." />
-            <marker date="1459728255000" expanded="true" signature="477:2883" placeholder="..." />
-            <marker date="1459728255000" expanded="true" signature="753:2833" placeholder="..." />
-            <marker date="1459728255000" expanded="true" signature="1080:2454" placeholder="..." />
-            <marker date="1459728255000" expanded="true" signature="1295:2426" placeholder="..." />
-            <marker date="1459728255000" expanded="true" signature="2503:2767" placeholder="..." />
-            <marker date="1459728255000" expanded="true" signature="2902:3097" placeholder="..." />
-            <marker date="1459728255000" expanded="true" signature="3056:3096" placeholder="&quot;android.support.design.widget.AppBarLayout$ScrollingVie...&quot;" />
-          </folding>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8353222">
@@ -3306,22 +3168,22 @@
         <state vertical-scroll-proportion="0.7006369">
           <caret line="93" column="43" selection-start-line="93" selection-start-column="43" selection-end-line="93" selection-end-column="43" />
           <folding>
-            <marker date="1459731258000" expanded="true" signature="40:1193" placeholder="..." />
-            <marker date="1459731258000" expanded="true" signature="1815:2049" placeholder="{...}" />
-            <marker date="1459731258000" expanded="true" signature="2082:2397" placeholder="{...}" />
-            <marker date="1459731258000" expanded="true" signature="2189:2220" placeholder="&quot;Open navigation drawer&quot;" />
-            <marker date="1459731258000" expanded="true" signature="2222:2254" placeholder="&quot;Close navigation drawer&quot;" />
-            <marker date="1459731258000" expanded="true" signature="2431:2573" placeholder="{...}" />
-            <marker date="1459731258000" expanded="true" signature="2611:2761" placeholder="{...}" />
-            <marker date="1459731258000" expanded="true" signature="2796:3113" placeholder="{...}" />
-            <marker date="1459731258000" expanded="true" signature="3161:3418" placeholder="{...}" />
-            <marker date="1459731258000" expanded="true" signature="3493:3952" placeholder="{...}" />
-            <marker date="1459731258000" expanded="true" signature="3984:5423" placeholder="{...}" />
-            <marker date="1459731258000" expanded="true" signature="4350:5414" placeholder="{...}" />
-            <marker date="1459731258000" expanded="false" signature="4427:4454" placeholder=" { " />
-            <marker date="1459731258000" expanded="false" signature="4479:4501" placeholder=" }" />
-            <marker date="1459731258000" expanded="true" signature="4586:4684" placeholder="{...}" />
-            <marker date="1459731258000" expanded="true" signature="4788:5396" placeholder="{...}" />
+            <marker date="1459733133000" expanded="true" signature="40:1198" placeholder="..." />
+            <marker date="1459733133000" expanded="true" signature="1820:2054" placeholder="{...}" />
+            <marker date="1459733133000" expanded="true" signature="2087:2402" placeholder="{...}" />
+            <marker date="1459733133000" expanded="true" signature="2194:2225" placeholder="&quot;Open navigation drawer&quot;" />
+            <marker date="1459733133000" expanded="true" signature="2227:2259" placeholder="&quot;Close navigation drawer&quot;" />
+            <marker date="1459733133000" expanded="true" signature="2436:2578" placeholder="{...}" />
+            <marker date="1459733133000" expanded="true" signature="2616:2766" placeholder="{...}" />
+            <marker date="1459733133000" expanded="true" signature="2801:3118" placeholder="{...}" />
+            <marker date="1459733133000" expanded="true" signature="3166:3423" placeholder="{...}" />
+            <marker date="1459733133000" expanded="true" signature="3498:3957" placeholder="{...}" />
+            <marker date="1459733133000" expanded="true" signature="3989:5428" placeholder="{...}" />
+            <marker date="1459733133000" expanded="true" signature="4355:5419" placeholder="{...}" />
+            <marker date="1459733133000" expanded="false" signature="4432:4459" placeholder=" { " />
+            <marker date="1459733133000" expanded="false" signature="4484:4506" placeholder=" }" />
+            <marker date="1459733133000" expanded="true" signature="4591:4689" placeholder="{...}" />
+            <marker date="1459733133000" expanded="true" signature="4793:5401" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -3357,7 +3219,7 @@
         <state vertical-scroll-proportion="0.13274336">
           <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
           <folding>
-            <marker date="1459732699000" expanded="true" signature="96:991" placeholder="..." />
+            <marker date="1459733102000" expanded="true" signature="96:1042" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -3372,14 +3234,232 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/view/ApodFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32051283">
-          <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.8504273">
+          <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1459732973000" expanded="true" signature="49:1025" placeholder="{...}" />
+            <marker date="1459732973000" expanded="true" signature="126:281" placeholder="{...}" />
+            <marker date="1459732973000" expanded="true" signature="297:813" placeholder="{...}" />
+            <marker date="1459732973000" expanded="true" signature="314:552" placeholder="{...}" />
+            <marker date="1459732973000" expanded="true" signature="570:807" placeholder="{...}" />
+            <marker date="1459732973000" expanded="true" signature="831:841" placeholder="{" />
+            <marker date="1459732973000" expanded="true" signature="855:861" placeholder="}" />
+            <marker date="1459732973000" expanded="true" signature="879:889" placeholder="{" />
+            <marker date="1459732973000" expanded="true" signature="913:919" placeholder="}" />
+            <marker date="1459732973000" expanded="true" signature="942:952" placeholder="{" />
+            <marker date="1459732973000" expanded="true" signature="1017:1023" placeholder="}" />
+            <marker date="1459732973000" expanded="true" signature="1040:1838" placeholder="{...}" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/ApodResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25641027">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <marker date="1459116280000" expanded="true" signature="90:130" placeholder="/**...*/" />
+            <marker date="1459116280000" expanded="false" signature="623:634" placeholder=" { " />
+            <marker date="1459116280000" expanded="false" signature="646:652" placeholder=" }" />
+            <marker date="1459116280000" expanded="false" signature="690:701" placeholder=" { " />
+            <marker date="1459116280000" expanded="false" signature="718:724" placeholder=" }" />
+            <marker date="1459116280000" expanded="false" signature="760:771" placeholder=" { " />
+            <marker date="1459116280000" expanded="false" signature="790:796" placeholder=" }" />
+            <marker date="1459116280000" expanded="false" signature="848:859" placeholder=" { " />
+            <marker date="1459116280000" expanded="false" signature="890:896" placeholder=" }" />
+            <marker date="1459116280000" expanded="false" signature="931:942" placeholder=" { " />
+            <marker date="1459116280000" expanded="false" signature="960:966" placeholder=" }" />
+            <marker date="1459116280000" expanded="false" signature="1016:1027" placeholder=" { " />
+            <marker date="1459116280000" expanded="false" signature="1056:1062" placeholder=" }" />
+            <marker date="1459116280000" expanded="false" signature="1096:1107" placeholder=" { " />
+            <marker date="1459116280000" expanded="false" signature="1124:1130" placeholder=" }" />
+            <marker date="1459116280000" expanded="false" signature="1178:1189" placeholder=" { " />
+            <marker date="1459116280000" expanded="false" signature="1216:1222" placeholder=" }" />
+            <marker date="1459116280000" expanded="false" signature="1261:1272" placeholder=" { " />
+            <marker date="1459116280000" expanded="false" signature="1294:1300" placeholder=" }" />
+            <marker date="1459116280000" expanded="false" signature="1358:1369" placeholder=" { " />
+            <marker date="1459116280000" expanded="false" signature="1406:1412" placeholder=" }" />
+            <marker date="1459116280000" expanded="false" signature="1442:1453" placeholder=" { " />
+            <marker date="1459116280000" expanded="false" signature="1466:1472" placeholder=" }" />
+            <marker date="1459116280000" expanded="false" signature="1512:1523" placeholder=" { " />
+            <marker date="1459116280000" expanded="false" signature="1542:1548" placeholder=" }" />
+            <marker date="1459116280000" expanded="false" signature="1581:1592" placeholder=" { " />
+            <marker date="1459116280000" expanded="false" signature="1608:1614" placeholder=" }" />
+            <marker date="1459116280000" expanded="false" signature="1660:1671" placeholder=" { " />
+            <marker date="1459116280000" expanded="false" signature="1696:1702" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/attrs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15486726">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <marker date="1459733102000" expanded="true" signature="10:495" placeholder="..." />
+            <marker date="1459733102000" expanded="true" signature="21:269" placeholder="..." />
+            <marker date="1459733102000" expanded="true" signature="326:481" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/fragments/ApodFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5987261">
+          <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+          <folding>
+            <marker date="1459734610000" expanded="true" signature="56:1398" placeholder="..." />
+            <marker date="1459734610000" expanded="true" signature="1776:1783" placeholder="{...}" />
+            <marker date="1459734610000" expanded="true" signature="1930:2179" placeholder="{...}" />
+            <marker date="1459734610000" expanded="true" signature="2211:3696" placeholder="{...}" />
+            <marker date="1459734610000" expanded="true" signature="2807:3687" placeholder="{...}" />
+            <marker date="1459734610000" expanded="true" signature="2890:3068" placeholder="{...}" />
+            <marker date="1459734610000" expanded="true" signature="3140:3677" placeholder="{...}" />
+            <marker date="1459734610000" expanded="true" signature="3736:5661" placeholder="{...}" />
+            <marker date="1459734610000" expanded="true" signature="4395:5653" placeholder="{...}" />
+            <marker date="1459734610000" expanded="true" signature="4474:4497" placeholder="{...}" />
+            <marker date="1459734610000" expanded="false" signature="4581:4608" placeholder=" { " />
+            <marker date="1459734610000" expanded="false" signature="4645:4667" placeholder=" }" />
+            <marker date="1459734610000" expanded="true" signature="4771:5634" placeholder="{...}" />
+            <marker date="1459734610000" expanded="true" signature="4967:5609" placeholder="{...}" />
+            <marker date="1459734610000" expanded="true" signature="5075:5368" placeholder="{...}" />
+            <marker date="1459734610000" expanded="true" signature="5474:5575" placeholder="{...}" />
+            <marker date="1459734610000" expanded="true" signature="5716:6014" placeholder="{...}" />
+            <marker date="1459734610000" expanded="true" signature="6070:6410" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/patents/model/Patent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.477707">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <marker date="1459702683000" expanded="true" signature="54:191" placeholder="..." />
+            <marker date="1459702683000" expanded="true" signature="193:233" placeholder="/**...*/" />
+            <marker date="1459702683000" expanded="false" signature="404:415" placeholder=" { " />
+            <marker date="1459702683000" expanded="false" signature="428:434" placeholder=" }" />
+            <marker date="1459702683000" expanded="true" signature="475:551" placeholder="{...}" />
+            <marker date="1459702683000" expanded="false" signature="601:612" placeholder=" { " />
+            <marker date="1459702683000" expanded="false" signature="631:637" placeholder=" }" />
+            <marker date="1459702683000" expanded="true" signature="690:784" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6">
+          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="57" selection-end-column="64" />
+          <folding>
+            <marker date="1459728255000" expanded="true" signature="146:3149" placeholder="..." />
+            <marker date="1459728255000" expanded="true" signature="477:2883" placeholder="..." />
+            <marker date="1459728255000" expanded="true" signature="753:2833" placeholder="..." />
+            <marker date="1459728255000" expanded="true" signature="1080:2454" placeholder="..." />
+            <marker date="1459728255000" expanded="true" signature="1295:2426" placeholder="..." />
+            <marker date="1459728255000" expanded="true" signature="2503:2767" placeholder="..." />
+            <marker date="1459728255000" expanded="true" signature="2902:3097" placeholder="..." />
+            <marker date="1459728255000" expanded="true" signature="3056:3096" placeholder="&quot;android.support.design.widget.AppBarLayout$ScrollingVie...&quot;" />
+          </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06912442">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding>
+            <marker date="1459736085000" expanded="true" signature="10:1399" placeholder="..." />
+            <marker date="1459736085000" expanded="true" signature="122:368" placeholder="..." />
+            <marker date="1459736085000" expanded="true" signature="409:519" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1843318">
+          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+          <folding>
+            <marker date="1459738212000" expanded="true" signature="10:459" placeholder="..." />
+            <marker date="1459738212000" expanded="true" signature="51:446" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40268457">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <marker date="1459738273000" expanded="true" signature="107:1380" placeholder="..." />
+            <marker date="1459738273000" expanded="true" signature="231:1367" placeholder="..." />
+            <marker date="1459738273000" expanded="false" signature="372:390" placeholder="&quot;Nasa Stuff&quot;" />
+            <marker date="1459738273000" expanded="true" signature="534:900" placeholder="..." />
+            <marker date="1459738273000" expanded="true" signature="602:620" placeholder="&quot;Nasa Stuff&quot;" />
+            <marker date="1459738273000" expanded="true" signature="704:880" placeholder="..." />
+            <marker date="1459738273000" expanded="true" signature="919:1348" placeholder="..." />
+            <marker date="1459738273000" expanded="false" signature="1080:1115" placeholder="&quot;FullImageActivity&quot;" />
+            <marker date="1459738273000" expanded="true" signature="1195:1328" placeholder="..." />
+            <marker date="1459738273000" expanded="true" signature="1348:1367" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/activity/FullImageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7324841">
+          <caret line="127" column="36" selection-start-line="127" selection-start-column="36" selection-end-line="127" selection-end-column="36" />
+          <folding>
+            <marker date="1459738403000" expanded="false" signature="54:953" placeholder="..." />
+            <marker date="1459738403000" expanded="true" signature="955:1102" placeholder="/**...*/" />
+            <marker date="1459738403000" expanded="true" signature="1346:1474" placeholder="/**...*/" />
+            <marker date="1459738403000" expanded="true" signature="1531:1673" placeholder="/**...*/" />
+            <marker date="1459738403000" expanded="true" signature="1739:1876" placeholder="/**...*/" />
+            <marker date="1459738403000" expanded="false" signature="2161:2259" placeholder="() → {" />
+            <marker date="1459738403000" expanded="true" signature="2272:2549" placeholder="//..." />
+            <marker date="1459738403000" expanded="false" signature="2940:2951" placeholder="}" />
+            <marker date="1459738403000" expanded="false" signature="3035:3097" placeholder="() → {" />
+            <marker date="1459738403000" expanded="false" signature="3347:3358" placeholder="}" />
+            <marker date="1459738403000" expanded="false" signature="3433:3508" placeholder="() → { " />
+            <marker date="1459738403000" expanded="false" signature="3515:3531" placeholder=" }" />
+            <marker date="1459738403000" expanded="true" signature="3537:3747" placeholder="/**...*/" />
+            <marker date="1459738403000" expanded="false" signature="3813:3928" placeholder="(view, motionEvent) → {" />
+            <marker date="1459738403000" expanded="false" signature="4055:4066" placeholder="}" />
+            <marker date="1459738403000" expanded="true" signature="4234:4683" placeholder="{...}" />
+            <marker date="1459738403000" expanded="true" signature="4715:5938" placeholder="{...}" />
+            <marker date="1459738403000" expanded="true" signature="4833:5929" placeholder="{...}" />
+            <marker date="1459738403000" expanded="true" signature="4936:5708" placeholder="{...}" />
+            <marker date="1459738403000" expanded="false" signature="5113:5259" placeholder="(view, x, y) → {" />
+            <marker date="1459738403000" expanded="false" signature="5310:5333" placeholder="}" />
+            <marker date="1459738403000" expanded="true" signature="5795:5811" placeholder="{...}" />
+            <marker date="1459738403000" expanded="true" signature="5903:5919" placeholder="{...}" />
+            <marker date="1459738403000" expanded="true" signature="5972:6224" placeholder="{...}" />
+            <marker date="1459738403000" expanded="true" signature="6299:6380" placeholder="{...}" />
+            <marker date="1459738403000" expanded="true" signature="6452:6640" placeholder="{...}" />
+            <marker date="1459738403000" expanded="true" signature="6668:6766" placeholder="{...}" />
+            <marker date="1459738403000" expanded="true" signature="6792:7244" placeholder="{...}" />
+            <marker date="1459738403000" expanded="true" signature="7302:7724" placeholder="{...}" />
+            <marker date="1459738403000" expanded="true" signature="7730:7849" placeholder="/**...*/" />
+            <marker date="1459738403000" expanded="true" signature="7896:8018" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_full_image.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5769231">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>

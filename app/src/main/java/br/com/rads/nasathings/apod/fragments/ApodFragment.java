@@ -1,6 +1,7 @@
-package br.com.rads.nasathings.apod.view;
+package br.com.rads.nasathings.apod.fragments;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
@@ -24,12 +25,14 @@ import java.util.Locale;
 
 import br.com.rads.nasathings.R;
 import br.com.rads.nasathings.apod.ApodResponse;
+import br.com.rads.nasathings.apod.activity.FullImageActivity;
 import br.com.rads.nasathings.service.NasaInterceptor;
 import br.com.rads.nasathings.service.NasaService;
 import br.com.rads.nasathings.util.DateUtil;
 import br.com.rads.nasathings.util.NasaUtil;
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
@@ -48,8 +51,9 @@ public class ApodFragment extends Fragment {
     @Bind(R.id.apod_description_text_view)
     TextView descriptionTextView;
 
-    ProgressBar progressBar;
-    CalendarView calendarView;
+    private ProgressBar progressBar;
+    private CalendarView calendarView;
+    private ApodResponse apod;
 
     public ApodFragment() {
     }
@@ -129,6 +133,7 @@ public class ApodFragment extends Fragment {
 
                     @Override
                     public void onNext(final ApodResponse apodResponse) {
+                        apod = apodResponse;
                         Picasso.with(getActivity()).load(apodResponse.getImageUrl()).into(
                                 imageView, new Callback() {
                                     @Override
@@ -155,5 +160,15 @@ public class ApodFragment extends Fragment {
         nameTextView.setVisibility(loading ? View.GONE : View.VISIBLE);
         descriptionTextView.setVisibility(loading ? View.GONE : View.VISIBLE);
     }
+
+    @OnClick(R.id.apod_image)
+    public void showHD(){
+        Intent intent = new Intent(getActivity(), FullImageActivity.class);
+        intent.putExtra(FullImageActivity.TITLE_EXTRA, apod.getTitle());
+        intent.putExtra(FullImageActivity.URL_EXTRA, apod.getImageUrl());
+        intent.putExtra(FullImageActivity.URL_HD_EXTRA, apod.getImageUrlHD());
+        startActivity(intent);
+    }
+
 
 }

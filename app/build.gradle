@@ -56,4 +56,5 @@ dependencies {
     compile 'com.android.support:support-v4:23.2.1'
     compile 'com.jakewharton:butterknife:7.0.1'
     compile 'com.github.jonisaa:MaterialCalendarview:v1.2.2'
+    compile 'com.commit451:PhotoView:1.2.5'
 }
