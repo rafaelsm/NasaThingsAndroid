@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/share_menu"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:title="Compartilhar"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/download_menu"
+        android:title="Download"
+        android:icon="@drawable/ic_file_download_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/wallpaper_menu"
+        android:icon="@drawable/ic_wallpaper_black_24dp"
+        android:title="Set as wallpaper"
+        app:showAsAction="collapseActionView"
+        />
+
+    <item android:id="@+id/show_hd_menu"
+        android:title="Show HD"
+        app:showAsAction="ifRoom"
+        android:checkable="true"
+        android:checked="false"
+        android:icon="@drawable/ic_hd_black_24dp"/>
+
+</menu>

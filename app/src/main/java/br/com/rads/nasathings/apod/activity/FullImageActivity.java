@@ -1,16 +1,21 @@
 package br.com.rads.nasathings.apod.activity;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
+import android.support.v4.content.ContextCompat;
+import android.support.v4.graphics.drawable.DrawableCompat;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.graphics.Palette;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.MenuItem;
@@ -25,6 +30,7 @@ import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Target;
 
 import br.com.rads.nasathings.R;
+import br.com.rads.nasathings.util.TintUtil;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import uk.co.senab.photoview.PhotoViewAttacher;
@@ -155,7 +161,7 @@ public class FullImageActivity extends AppCompatActivity {
 
                 Palette palette = Palette.from(bitmap).generate();
                 backgroundView.setBackgroundColor(palette.getDarkMutedSwatch() != null ? palette.getDarkMutedSwatch().getRgb() : Color.TRANSPARENT);
-                toolbar.setBackgroundColor(palette.getDarkMutedSwatch() != null ? palette.getDarkMutedSwatch().getRgb() : Color.TRANSPARENT);
+                toolbar.setBackgroundColor(Color.TRANSPARENT);
             }
 
             @Override
@@ -186,13 +192,45 @@ public class FullImageActivity extends AppCompatActivity {
     }
 
     @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_apod_full,menu);
+
+        TintUtil.tintMenuItem(menu.findItem(R.id.download_menu),ContextCompat.getColor(this, R.color.white));
+        TintUtil.tintMenuItem(menu.findItem(R.id.share_menu),ContextCompat.getColor(this, R.color.white));
+        TintUtil.tintMenuItem(menu.findItem(R.id.show_hd_menu),ContextCompat.getColor(this, R.color.white));
+        TintUtil.tintMenuItem(menu.findItem(R.id.wallpaper_menu),ContextCompat.getColor(this, R.color.white));
+
+        return true;
+    }
+
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        if (id == android.R.id.home) {
-            finish();
-            return true;
+        switch (id){
+            case android.R.id.home:
+                finish();
+                return true;
+
+            case R.id.download_menu:
+                return true;
+
+            case R.id.share_menu:
+                return true;
+
+            case R.id.show_hd_menu:
+                item.setChecked(!item.isChecked());
+                showHDImage(item.isChecked());
+                return true;
+
+            case R.id.wallpaper_menu:
+                return true;
         }
+
         return super.onOptionsItemSelected(item);
+    }
+
+    private void showHDImage(boolean hd) {
+
     }
 
     private void toggle() {

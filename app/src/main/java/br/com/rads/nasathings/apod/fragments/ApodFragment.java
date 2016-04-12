@@ -170,5 +170,4 @@ public class ApodFragment extends Fragment {
         startActivity(intent);
     }
 
-
 }

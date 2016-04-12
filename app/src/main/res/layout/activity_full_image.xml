@@ -23,26 +23,12 @@
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
-            android:layout_marginTop="24dp"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize" />
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginTop="24dp"
+            android:theme="@style/Toolbar.Fullscreen"
+            android:background="@color/transparent" />
 
     </FrameLayout>
-
-    <!-- This FrameLayout insets its children based on system windows using
-         android:fitsSystemWindows. -->
-
-    <!--<LinearLayout-->
-    <!--android:id="@+id/fullscreen_content_controls"-->
-    <!--style="?metaButtonBarStyle"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:layout_gravity="bottom|center_horizontal"-->
-    <!--android:background="@color/black_overlay"-->
-    <!--android:orientation="horizontal"-->
-    <!--tools:ignore="UselessParent">-->
-
-    <!--</LinearLayout>-->
-    <!--</FrameLayout>-->
 
 </FrameLayout>

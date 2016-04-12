@@ -5,9 +5,9 @@
       <config />
     </shared>
     <layouts>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/menu/menu_apod_full.xml">
         <config>
-          <theme>@style/AppTheme</theme>
+          <theme>@android:style/Theme.Material.Light</theme>
         </config>
       </layout>
     </layouts>
@@ -17,20 +17,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="016a5017-e700-4bd5-a79a-370ca1128fa6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/PhotoView_1_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/activity/FullImageActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_full_image.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/view/ApodFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/fragments/ApodFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/design_23_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/Constants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/util/TintUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_file_download_black_24dp.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_hd_black_24dp.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_share_black_24dp.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_wallpaper_black_24dp.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_apod_full.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/ST4_4_0_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/antlr4_4_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/antlr_runtime_3_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/baseLibrary_2_1_0_alpha4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/commons_io_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/compilerCommon_2_1_0_alpha4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/compiler_2_1_0_alpha4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/guava_17_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/kotlin_runtime_1_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/kotlin_stdlib_1_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/org_abego_treelayout_core_1_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_2_1.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_23_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_23_3_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/antlr4_annotations_4_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/compiler_2_1_0_alpha5.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/antlr4_runtime_4_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/baseLibrary_2_1_0_alpha5.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/design_23_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_3_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/palette_v7_23_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/palette_v7_23_3_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_23_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_23_3_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/proguard-rules.pro" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/activity/FullImageActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/activity/FullImageActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/fragments/ApodFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/fragments/ApodFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_full_image.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_full_image.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle.properties" afterPath="$PROJECT_DIR$/gradle.properties" />
     </list>
     <ignored path="Nasa Things.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,7 +81,77 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="NasaThingsAndroid" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value=":app" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
+              </PATH_ELEMENT>
+            </PATH>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="NasaThingsAndroid" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value=":app" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Tasks" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="verification" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode$1" />
+              </PATH_ELEMENT>
+            </PATH>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="NasaThingsAndroid" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value=":app" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Tasks" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
+              </PATH_ELEMENT>
+            </PATH>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="NasaThingsAndroid" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+            </PATH>
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -58,16 +160,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="activity_full_image.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_full_image.xml">
+      <file leaf-file-name="FullImageActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/activity/FullImageActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5769231">
-              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-              <folding />
+            <state vertical-scroll-proportion="0.84288746">
+              <caret line="230" column="0" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -76,8 +177,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="valueResourceFile" />
+        <option value="resourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -260,6 +362,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileDebugAndroidTestShaders" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileDebugAndroidTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -273,6 +379,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileDebugRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileDebugShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -305,6 +415,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileReleaseRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileReleaseShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -479,6 +593,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="mergeDebugAndroidTestShaders" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeDebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -491,6 +609,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="mergeDebugShaders" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeReleaseAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -500,6 +622,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="mergeReleaseShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Creates a version of android.jar that's suitable for unit tests." />
@@ -565,39 +691,39 @@
                 <option name="name" value="prepareComAndroidDatabindingLibrary11Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:animated-vector-drawable:23.2.1" />
+                <option name="description" value="Prepare com.android.support:animated-vector-drawable:23.3.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2321Library" />
+                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2330Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:appcompat-v7:23.2.1" />
+                <option name="description" value="Prepare com.android.support:appcompat-v7:23.3.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportAppcompatV72321Library" />
+                <option name="name" value="prepareComAndroidSupportAppcompatV72330Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:design:23.2.1" />
+                <option name="description" value="Prepare com.android.support:design:23.3.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportDesign2321Library" />
+                <option name="name" value="prepareComAndroidSupportDesign2330Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:palette-v7:23.2.1" />
+                <option name="description" value="Prepare com.android.support:palette-v7:23.3.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportPaletteV72321Library" />
+                <option name="name" value="prepareComAndroidSupportPaletteV72330Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:recyclerview-v7:23.2.1" />
+                <option name="description" value="Prepare com.android.support:recyclerview-v7:23.3.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportRecyclerviewV72321Library" />
+                <option name="name" value="prepareComAndroidSupportRecyclerviewV72330Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-v4:23.2.1" />
+                <option name="description" value="Prepare com.android.support:support-v4:23.3.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportV42321Library" />
+                <option name="name" value="prepareComAndroidSupportSupportV42330Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-vector-drawable:23.2.1" />
+                <option name="description" value="Prepare com.android.support:support-vector-drawable:23.3.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2321Library" />
+                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2330Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.commit451:PhotoView:1.2.5" />
@@ -718,6 +844,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="transformClassesWithDexForRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformClassesWithShrinkResForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -882,6 +1012,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="compileDebugAndroidTestShaders" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="compileDebugAndroidTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -895,6 +1029,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="compileDebugRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="compileDebugShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -927,6 +1065,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="compileReleaseRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="compileReleaseShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1121,6 +1263,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="mergeDebugAndroidTestShaders" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="mergeDebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1133,6 +1279,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="mergeDebugShaders" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="mergeReleaseAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1142,6 +1292,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="mergeReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="mergeReleaseShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Creates a version of android.jar that's suitable for unit tests." />
@@ -1212,39 +1366,39 @@
                 <option name="name" value="prepareComAndroidDatabindingLibrary11Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:animated-vector-drawable:23.2.1" />
+                <option name="description" value="Prepare com.android.support:animated-vector-drawable:23.3.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2321Library" />
+                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2330Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:appcompat-v7:23.2.1" />
+                <option name="description" value="Prepare com.android.support:appcompat-v7:23.3.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportAppcompatV72321Library" />
+                <option name="name" value="prepareComAndroidSupportAppcompatV72330Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:design:23.2.1" />
+                <option name="description" value="Prepare com.android.support:design:23.3.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportDesign2321Library" />
+                <option name="name" value="prepareComAndroidSupportDesign2330Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:palette-v7:23.2.1" />
+                <option name="description" value="Prepare com.android.support:palette-v7:23.3.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportPaletteV72321Library" />
+                <option name="name" value="prepareComAndroidSupportPaletteV72330Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:recyclerview-v7:23.2.1" />
+                <option name="description" value="Prepare com.android.support:recyclerview-v7:23.3.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportRecyclerviewV72321Library" />
+                <option name="name" value="prepareComAndroidSupportRecyclerviewV72330Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-v4:23.2.1" />
+                <option name="description" value="Prepare com.android.support:support-v4:23.3.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportSupportV42321Library" />
+                <option name="name" value="prepareComAndroidSupportSupportV42330Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-vector-drawable:23.2.1" />
+                <option name="description" value="Prepare com.android.support:support-vector-drawable:23.3.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2321Library" />
+                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2330Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.commit451:PhotoView:1.2.5" />
@@ -1383,6 +1537,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="transformClassesWithShrinkResForRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="transformNative_libsWithMergeJniLibsForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1448,7 +1606,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4378553316000" />
+        <entry key="$PROJECT_DIR$" value="4379533942000" />
         <entry key="$USER_HOME$/taxija/customer/branch-3.2" value="5686195558000" />
         <entry key="$USER_HOME$/taxija/customer/tag-3.2" value="5686191420000" />
         <entry key="$USER_HOME$/taxija/customer/tag-3.2.1" value="5686197555000" />
@@ -1467,72 +1625,73 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.1.0-alpha4/gradle-2.1.0-alpha4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.1.0-alpha4/gradle-core-2.1.0-alpha4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.1.0-alpha4/gradle-api-2.1.0-alpha4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.1.0-alpha5/gradle-2.1.0-alpha5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.1.0-alpha5/gradle-core-2.1.0-alpha5.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.1.0-alpha4/builder-2.1.0-alpha4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.1.0-alpha4/lint-25.1.0-alpha4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.1.0-alpha4/compilerCommon-2.1.0-alpha4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.1.0-alpha5/compilerCommon-2.1.0-alpha5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.1.0-alpha5/builder-2.1.0-alpha5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.1.0-alpha5/lint-25.1.0-alpha5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.1.0-alpha5/gradle-api-2.1.0-alpha5.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.1.0-alpha4/annotations-25.1.0-alpha4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.1.0-alpha4/ddmlib-25.1.0-alpha4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.1.0-alpha4/common-25.1.0-alpha4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.1.0-alpha4/manifest-merger-25.1.0-alpha4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.10.0/jill-api-0.10.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.1.0-alpha4/builder-model-2.1.0-alpha4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.10.0/jack-api-0.10.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.1.0-alpha4/sdk-common-25.1.0-alpha4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.1.0-alpha4/sdklib-25.1.0-alpha4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.1.0-alpha4/builder-test-api-2.1.0-alpha4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.1.0-alpha4/lint-checks-25.1.0-alpha4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.1.0-alpha4/baseLibrary-2.1.0-alpha4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.1.0-alpha5/baseLibrary-2.1.0-alpha5.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4/4.5/antlr4-4.5.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.1.0-alpha5/builder-model-2.1.0-alpha5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.1.0-alpha5/builder-test-api-2.1.0-alpha5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.1.0-alpha5/ddmlib-25.1.0-alpha5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.1.0-alpha5/common-25.1.0-alpha5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.1.0-alpha5/manifest-merger-25.1.0-alpha5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.10.0/jill-api-0.10.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.1.0-alpha5/sdklib-25.1.0-alpha5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.10.0/jack-api-0.10.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.1.0-alpha5/sdk-common-25.1.0-alpha5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.1.0-alpha5/lint-checks-25.1.0-alpha5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.1.0-alpha5/annotations-25.1.0-alpha5.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-runtime/4.5/antlr4-runtime-4.5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-annotations/4.5/antlr4-annotations-4.5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/ST4/4.0.8/ST4-4.0.8.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.1.0-alpha4/repository-25.1.0-alpha4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.1.0-alpha5/repository-25.1.0-alpha5.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.1.0-alpha4/layoutlib-api-25.1.0-alpha4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.1.0-alpha5/layoutlib-api-25.1.0-alpha5.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.1.0-alpha4/dvlib-25.1.0-alpha4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.1.0-alpha4/lint-api-25.1.0-alpha4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.1.0-alpha5/dvlib-25.1.0-alpha5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.1.0-alpha5/lint-api-25.1.0-alpha5.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-runtime/4.5/antlr4-runtime-4.5.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-annotations/4.5/antlr4-annotations-4.5.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/ST4/4.0.8/ST4-4.0.8.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar" />
@@ -1543,7 +1702,6 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$" />
@@ -1555,72 +1713,73 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.1.0-alpha4/gradle-2.1.0-alpha4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.1.0-alpha4/gradle-core-2.1.0-alpha4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.1.0-alpha4/gradle-api-2.1.0-alpha4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.1.0-alpha5/gradle-2.1.0-alpha5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.1.0-alpha5/gradle-core-2.1.0-alpha5.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.1.0-alpha4/builder-2.1.0-alpha4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.1.0-alpha4/lint-25.1.0-alpha4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.1.0-alpha4/compilerCommon-2.1.0-alpha4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.1.0-alpha5/compilerCommon-2.1.0-alpha5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.1.0-alpha5/builder-2.1.0-alpha5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.1.0-alpha5/lint-25.1.0-alpha5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.1.0-alpha5/gradle-api-2.1.0-alpha5.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.1.0-alpha4/annotations-25.1.0-alpha4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.1.0-alpha4/ddmlib-25.1.0-alpha4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.1.0-alpha4/common-25.1.0-alpha4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.1.0-alpha4/manifest-merger-25.1.0-alpha4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.10.0/jill-api-0.10.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.1.0-alpha4/builder-model-2.1.0-alpha4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.10.0/jack-api-0.10.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.1.0-alpha4/sdk-common-25.1.0-alpha4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.1.0-alpha4/sdklib-25.1.0-alpha4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.1.0-alpha4/builder-test-api-2.1.0-alpha4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.1.0-alpha4/lint-checks-25.1.0-alpha4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.1.0-alpha4/baseLibrary-2.1.0-alpha4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.1.0-alpha5/baseLibrary-2.1.0-alpha5.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4/4.5/antlr4-4.5.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.1.0-alpha5/builder-model-2.1.0-alpha5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.1.0-alpha5/builder-test-api-2.1.0-alpha5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.1.0-alpha5/ddmlib-25.1.0-alpha5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.1.0-alpha5/common-25.1.0-alpha5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.1.0-alpha5/manifest-merger-25.1.0-alpha5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.10.0/jill-api-0.10.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.1.0-alpha5/sdklib-25.1.0-alpha5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.10.0/jack-api-0.10.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.1.0-alpha5/sdk-common-25.1.0-alpha5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.1.0-alpha5/lint-checks-25.1.0-alpha5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.1.0-alpha5/annotations-25.1.0-alpha5.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-runtime/4.5/antlr4-runtime-4.5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-annotations/4.5/antlr4-annotations-4.5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/ST4/4.0.8/ST4-4.0.8.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.1.0-alpha4/repository-25.1.0-alpha4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.1.0-alpha5/repository-25.1.0-alpha5.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.1.0-alpha4/layoutlib-api-25.1.0-alpha4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.1.0-alpha5/layoutlib-api-25.1.0-alpha5.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.1.0-alpha4/dvlib-25.1.0-alpha4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.1.0-alpha4/lint-api-25.1.0-alpha4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.1.0-alpha5/dvlib-25.1.0-alpha5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.1.0-alpha5/lint-api-25.1.0-alpha5.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-runtime/4.5/antlr4-runtime-4.5.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-annotations/4.5/antlr4-annotations-4.5.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/ST4/4.0.8/ST4-4.0.8.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar" />
@@ -1631,27 +1790,26 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar" />
-                            <option value="$USER_HOME$/Android/sdk/extras/android/m2repository/com/android/support/palette-v7/23.2.1/palette-v7-23.2.1.aar" />
-                            <option value="$USER_HOME$/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.2.1/appcompat-v7-23.2.1.aar" />
-                            <option value="$USER_HOME$/Android/sdk/extras/android/m2repository/com/android/support/design/23.2.1/design-23.2.1.aar" />
+                            <option value="$USER_HOME$/Android/sdk/extras/android/m2repository/com/android/support/palette-v7/23.3.0/palette-v7-23.3.0.aar" />
+                            <option value="$USER_HOME$/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.3.0/appcompat-v7-23.3.0.aar" />
+                            <option value="$USER_HOME$/Android/sdk/extras/android/m2repository/com/android/support/design/23.3.0/design-23.3.0.aar" />
+                            <option value="$USER_HOME$/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.3.0/support-v4-23.3.0.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.0/49eb3ad545e7701234e4dd83db8dc1344b577f23/converter-gson-2.0.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex/rxandroid/1.1.0/70751512690d3c21f2a03717f9e831fc09f60117/rxandroid-1.1.0.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.0.0/5c06d197fb7fa875ad452f562e3310dd9949d066/retrofit-2.0.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.2/f1bc476cc167b18e66c297df599b2377131a8947/gson-2.6.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.0.0/bf61256d9868ea053e24d77669c55c80db375c15/adapter-rxjava-2.0.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar" />
-                            <option value="$USER_HOME$/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.2.1/support-v4-23.2.1.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jonisaa/MaterialCalendarview/v1.2.2/cd821c17217ad8057dc7984bc84fdec6ffcac3fe/MaterialCalendarview-v1.2.2.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.commit451/PhotoView/1.2.5/44a856dad86c6033034217783d0181d50238cf13/PhotoView-1.2.5.aar" />
                             <option value="$USER_HOME$/Android/sdk/extras/android/m2repository/com/android/databinding/library/1.1/library-1.1.aar" />
                             <option value="$USER_HOME$/Android/sdk/extras/android/m2repository/com/android/databinding/adapters/1.1/adapters-1.1.aar" />
-                            <option value="$USER_HOME$/Android/sdk/extras/android/m2repository/com/android/support/animated-vector-drawable/23.2.1/animated-vector-drawable-23.2.1.aar" />
-                            <option value="$USER_HOME$/Android/sdk/extras/android/m2repository/com/android/support/support-vector-drawable/23.2.1/support-vector-drawable-23.2.1.aar" />
-                            <option value="$USER_HOME$/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.2.1/recyclerview-v7-23.2.1.aar" />
+                            <option value="$USER_HOME$/Android/sdk/extras/android/m2repository/com/android/support/support-vector-drawable/23.3.0/support-vector-drawable-23.3.0.aar" />
+                            <option value="$USER_HOME$/Android/sdk/extras/android/m2repository/com/android/support/animated-vector-drawable/23.3.0/animated-vector-drawable-23.3.0.aar" />
+                            <option value="$USER_HOME$/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.3.0/recyclerview-v7-23.3.0.aar" />
+                            <option value="$USER_HOME$/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar" />
-                            <option value="$USER_HOME$/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.9/e8a58b7f5853b693b8c4795a714fe77c266c3acc/joda-time-2.9.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.1/b494968f6050d494de55dc3ce005e59c7eb40012/rxjava-1.1.1.jar" />
@@ -1807,7 +1965,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/patents/response/Contact.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/patents/response/Innovator.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/patents/response/Result.java" />
-        <option value="$PROJECT_DIR$/app/proguard-rules.pro" />
         <option value="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/patents/response/PatentsResponse.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_patents.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/patents/view/PatentsFragment.java" />
@@ -1826,13 +1983,18 @@
         <option value="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/view/ApodFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-night/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/proguard-rules.pro" />
+        <option value="$PROJECT_DIR$/gradle.properties" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/Constants.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/fragments/ApodFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/activity/FullImageActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_full_image.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/util/TintUtil.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_apod_full.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/activity/FullImageActivity.java" />
       </list>
     </option>
   </component>
@@ -1866,6 +2028,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -1942,6 +2105,28 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colors.xml" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nasa Things" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1957,7 +2142,7 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
+              <option name="myItemId" value="menu" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1991,6 +2176,28 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="nasathings" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nasa Things" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nasathings" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2058,7 +2265,6 @@
         </subPane>
       </pane>
       <pane id="ProjectPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2075,9 +2281,9 @@
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../estudo/calendar/material-calendar-view" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="device.picker.selection" value="02bb0ef908d8942c" />
+    <property name="device.picker.selection" value="Nexus_5X_API_23_2" />
     <property name="DEBUGGABLE_DEVICE" value="lge-nexus_5-02bb0ef908d8942c" />
     <property name="DEBUGGABLE_PROCESS" value="br.com.rads.nasathings" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
@@ -2098,6 +2304,96 @@
     </key>
   </component>
   <component name="RunManager" selected="Android Application.app">
+    <configuration default="false" name="NasaThingsAndroid:app [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="NasaThingsAndroid:app [androidDependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="androidDependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="NasaThingsAndroid:app [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="NasaThingsAndroid:app [sourceSets]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="sourceSets" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="NasaThingsAndroid:app [lint]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="lint" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -2178,6 +2474,22 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -2344,9 +2656,23 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Android Application.app" />
+      <item index="1" class="java.lang.String" itemvalue="Gradle.NasaThingsAndroid:app [assemble]" />
+      <item index="2" class="java.lang.String" itemvalue="Gradle.NasaThingsAndroid:app [androidDependencies]" />
+      <item index="3" class="java.lang.String" itemvalue="Gradle.NasaThingsAndroid:app [signingReport]" />
+      <item index="4" class="java.lang.String" itemvalue="Gradle.NasaThingsAndroid:app [sourceSets]" />
+      <item index="5" class="java.lang.String" itemvalue="Gradle.NasaThingsAndroid:app [lint]" />
     </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Gradle.NasaThingsAndroid:app [lint]" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.NasaThingsAndroid:app [sourceSets]" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.NasaThingsAndroid:app [signingReport]" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.NasaThingsAndroid:app [androidDependencies]" />
+        <item index="4" class="java.lang.String" itemvalue="Gradle.NasaThingsAndroid:app [assemble]" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="HTML_FILE_NAME" />
@@ -2361,6 +2687,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="016a5017-e700-4bd5-a79a-370ca1128fa6" name="Default" comment="" />
@@ -2380,9 +2709,9 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2391,7 +2720,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.4864865" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2403,6 +2732,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -2446,6 +2783,49 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <marker date="1460422919000" expanded="true" signature="49:1223" placeholder="{...}" />
+            <marker date="1460422919000" expanded="true" signature="126:281" placeholder="{...}" />
+            <marker date="1460422919000" expanded="true" signature="297:887" placeholder="{...}" />
+            <marker date="1460422919000" expanded="true" signature="314:592" placeholder="{...}" />
+            <marker date="1460422919000" expanded="true" signature="610:881" placeholder="{...}" />
+            <marker date="1460422919000" expanded="true" signature="905:915" placeholder="{" />
+            <marker date="1460422919000" expanded="true" signature="929:935" placeholder="}" />
+            <marker date="1460422919000" expanded="true" signature="953:963" placeholder="{" />
+            <marker date="1460422919000" expanded="true" signature="987:993" placeholder="}" />
+            <marker date="1460422919000" expanded="true" signature="1016:1026" placeholder="{" />
+            <marker date="1460422919000" expanded="true" signature="1091:1097" placeholder="}" />
+            <marker date="1460422919000" expanded="true" signature="1123:1221" placeholder="{...}" />
+            <marker date="1460422919000" expanded="true" signature="1171:1185" placeholder="{" />
+            <marker date="1460422919000" expanded="true" signature="1171:1215" placeholder="{...}" />
+            <marker date="1460422919000" expanded="true" signature="1205:1215" placeholder="}" />
+            <marker date="1460422919000" expanded="true" signature="1228:1234" placeholder="{" />
+            <marker date="1460422919000" expanded="true" signature="1266:1268" placeholder="}" />
+            <marker date="1460422919000" expanded="true" signature="1283:2145" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_full_image.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+          <folding>
+            <marker date="1460427723000" expanded="true" signature="71:1241" placeholder="..." />
+            <marker date="1460427723000" expanded="true" signature="426:717" placeholder="..." />
+            <marker date="1460427723000" expanded="true" signature="736:1225" placeholder="..." />
+            <marker date="1460427723000" expanded="true" signature="911:1205" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/patents/view/PatentsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2459,13 +2839,6 @@
             <marker date="1459702414000" expanded="true" signature="2022:2343" placeholder="//..." />
             <marker date="1459702414000" expanded="true" signature="2426:2583" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/br/com/rads/nasathings/BuildConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3716216">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -2511,22 +2884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17699115">
           <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding>
-            <marker date="1459114465000" expanded="true" signature="66:472" placeholder="..." />
-            <marker date="1459114465000" expanded="true" signature="195:462" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-night/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4608295">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding>
-            <marker date="1459127004000" expanded="true" signature="49:748" placeholder="..." />
-            <marker date="1459127004000" expanded="true" signature="163:409" placeholder="..." />
-            <marker date="1459127004000" expanded="true" signature="450:560" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2534,11 +2891,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34188035">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1459127274000" expanded="true" signature="40:113" placeholder="..." />
-            <marker date="1459127274000" expanded="true" signature="115:155" placeholder="/**...*/" />
-            <marker date="1459127274000" expanded="true" signature="249:364" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2546,13 +2898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.72649574">
           <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/patents/response/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5982906">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -2576,13 +2921,6 @@
             <marker date="1459124208000" expanded="true" signature="605:731" placeholder="..." />
             <marker date="1459124208000" expanded="true" signature="746:878" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58598727">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -2625,18 +2963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2777778">
           <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-          <folding>
-            <marker date="1459131622000" expanded="false" signature="57:208" placeholder="..." />
-            <marker date="1459131622000" expanded="true" signature="210:250" placeholder="/**...*/" />
-            <marker date="1459131622000" expanded="false" signature="447:458" placeholder=" { " />
-            <marker date="1459131622000" expanded="false" signature="471:477" placeholder=" }" />
-            <marker date="1459131622000" expanded="false" signature="515:526" placeholder=" { " />
-            <marker date="1459131622000" expanded="false" signature="545:551" placeholder=" }" />
-            <marker date="1459131622000" expanded="true" signature="589:600" placeholder=" { " />
-            <marker date="1459131622000" expanded="true" signature="615:621" placeholder=" }" />
-            <marker date="1459131622000" expanded="false" signature="671:682" placeholder=" { " />
-            <marker date="1459131622000" expanded="false" signature="705:711" placeholder=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2644,122 +2970,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4059829">
           <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-          <folding>
-            <marker date="1459129038000" expanded="true" signature="57:195" placeholder="..." />
-            <marker date="1459129038000" expanded="true" signature="197:237" placeholder="/**...*/" />
-            <marker date="1459129038000" expanded="false" signature="1415:1426" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="1442:1448" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="1494:1505" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="1530:1536" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="1575:1586" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="1608:1614" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="1672:1683" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="1720:1726" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="1757:1768" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="1782:1788" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="1830:1841" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="1862:1868" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="1909:1920" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="1938:1944" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="2000:2011" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="2040:2046" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="2086:2097" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="2120:2126" placeholder=" }" />
-            <marker date="1459129038000" expanded="true" signature="2187:2242" placeholder="{...}" />
-            <marker date="1459129038000" expanded="false" signature="2281:2292" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="2314:2320" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="2378:2389" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="2426:2432" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="2466:2477" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="2494:2500" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="2548:2559" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="2586:2592" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="2622:2633" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="2646:2652" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="2692:2703" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="2722:2728" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="2771:2782" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="2799:2805" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="2862:2873" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="2900:2906" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="2939:2950" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="2965:2971" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="3016:3027" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="3050:3056" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="3092:3103" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="3122:3128" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="3180:3191" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="3222:3228" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="3263:3274" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="3290:3296" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="3344:3355" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="3380:3386" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="3423:3434" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="3454:3460" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="3514:3525" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="3558:3564" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="3591:3602" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="3612:3618" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="3652:3663" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="3671:3677" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="3705:3716" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="3727:3733" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="3769:3780" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="3795:3801" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="3838:3849" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="3869:3875" placeholder=" }" />
-            <marker date="1459129038000" expanded="false" signature="3929:3940" placeholder=" { " />
-            <marker date="1459129038000" expanded="false" signature="3973:3979" placeholder=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/NasaActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08547009">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <marker date="1459115374000" expanded="false" signature="40:107" placeholder="..." />
-            <marker date="1459115374000" expanded="false" signature="232:243" placeholder=" { " />
-            <marker date="1459115374000" expanded="false" signature="278:284" placeholder=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79617834">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding>
-            <marker date="1459705903000" expanded="true" signature="113:447" placeholder="{...}" />
-            <marker date="1459705903000" expanded="true" signature="132:222" placeholder="{...}" />
-            <marker date="1459705903000" expanded="true" signature="167:181" placeholder="{" />
-            <marker date="1459705903000" expanded="true" signature="205:215" placeholder="}" />
-            <marker date="1459705903000" expanded="true" signature="240:445" placeholder="{...}" />
-            <marker date="1459705903000" expanded="true" signature="315:439" placeholder="..." />
-            <marker date="1459705903000" expanded="true" signature="461:571" placeholder="{...}" />
-            <marker date="1459705903000" expanded="true" signature="480:569" placeholder="{...}" />
-            <marker date="1459705903000" expanded="true" signature="515:529" placeholder="{" />
-            <marker date="1459705903000" expanded="true" signature="553:563" placeholder="}" />
-            <marker date="1459705903000" expanded="true" signature="598:604" placeholder="{" />
-            <marker date="1459705903000" expanded="true" signature="631:633" placeholder="}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/intermediates/data-binding-layout-out/debug/layout/app_bar_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83668905">
-          <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
-          <folding>
-            <marker date="1459728256000" expanded="true" signature="146:3149" placeholder="..." />
-            <marker date="1459728256000" expanded="true" signature="477:2883" placeholder="..." />
-            <marker date="1459728256000" expanded="true" signature="2403:2833" placeholder="..." />
-            <marker date="1459728256000" expanded="true" signature="2403:2454" placeholder="..." />
-            <marker date="1459728256000" expanded="true" signature="2403:2426" placeholder="..." />
-            <marker date="1459728256000" expanded="true" signature="2503:2767" placeholder="..." />
-            <marker date="1459728256000" expanded="true" signature="2902:3097" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2767,19 +2977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13333334">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <marker date="1459720663000" expanded="false" signature="0:104" placeholder="/.../" />
-            <marker date="1459720663000" expanded="false" signature="159:471" placeholder="..." />
-            <marker date="1459720663000" expanded="false" signature="623:634" placeholder=" { " />
-            <marker date="1459720663000" expanded="false" signature="671:677" placeholder=" }" />
-            <marker date="1459720663000" expanded="false" signature="734:745" placeholder=" { " />
-            <marker date="1459720663000" expanded="false" signature="769:775" placeholder=" }" />
-            <marker date="1459720663000" expanded="true" signature="851:985" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="1050:1303" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="1332:1613" placeholder="{...}" />
-            <marker date="1459720663000" expanded="false" signature="1640:1651" placeholder=" { " />
-            <marker date="1459720663000" expanded="false" signature="1669:1675" placeholder=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2787,64 +2984,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.56050956">
           <caret line="468" column="23" selection-start-line="468" selection-start-column="23" selection-end-line="468" selection-end-column="23" />
-          <folding>
-            <marker date="1439948872000" expanded="false" signature="0:619" placeholder="/.../" />
-            <marker date="1439948872000" expanded="false" signature="658:1106" placeholder="..." />
-            <marker date="1439948872000" expanded="true" signature="1108:1297" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="1846:1929" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="2939:3155" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="3804:3893" placeholder="//..." />
-            <marker date="1439948872000" expanded="true" signature="3898:4054" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="4184:4326" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="4752:4782" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="4840:4870" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="4929:5216" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="5284:5573" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="5643:6067" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="6136:6386" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="6457:6896" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="6968:7742" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="7830:8438" placeholder="{...}" />
-            <marker date="1439948872000" expanded="true" signature="8444:8784" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="8850:8934" placeholder="{...}" />
-            <marker date="1439948872000" expanded="true" signature="8940:9532" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="9612:10188" placeholder="{...}" />
-            <marker date="1439948872000" expanded="true" signature="10194:10524" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="10598:10704" placeholder="{...}" />
-            <marker date="1439948872000" expanded="true" signature="10710:11328" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="11427:11588" placeholder="{...}" />
-            <marker date="1439948872000" expanded="true" signature="11594:12549" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="12671:12839" placeholder="{...}" />
-            <marker date="1439948872000" expanded="true" signature="12845:13912" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="14062:14574" placeholder="{...}" />
-            <marker date="1439948872000" expanded="true" signature="14620:14707" placeholder="{...}" />
-            <marker date="1439948872000" expanded="true" signature="14759:15186" placeholder="{...}" />
-            <marker date="1439948872000" expanded="true" signature="15192:15406" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="15466:16253" placeholder="{...}" />
-            <marker date="1439948872000" expanded="true" signature="16259:16443" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="16508:16571" placeholder="{...}" />
-            <marker date="1439948872000" expanded="true" signature="16577:16922" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="17010:18237" placeholder="{...}" />
-            <marker date="1439948872000" expanded="true" signature="17470:17615" placeholder="//..." />
-            <marker date="1439948872000" expanded="true" signature="17782:17924" placeholder="//..." />
-            <marker date="1439948872000" expanded="true" signature="18243:18907" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="19026:19720" placeholder="{...}" />
-            <marker date="1439948872000" expanded="true" signature="19726:19798" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="19844:20203" placeholder="{...}" />
-            <marker date="1439948872000" expanded="true" signature="20209:21278" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="21394:21568" placeholder="{...}" />
-            <marker date="1439948872000" expanded="true" signature="21574:22555" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="22695:22791" placeholder="{...}" />
-            <marker date="1439948872000" expanded="true" signature="22797:29381" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="29570:30313" placeholder="{...}" />
-            <marker date="1439948872000" expanded="true" signature="29580:29825" placeholder="//..." />
-            <marker date="1439948872000" expanded="true" signature="30319:31835" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="31917:31988" placeholder="{...}" />
-            <marker date="1439948872000" expanded="true" signature="31994:32665" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="32784:34364" placeholder="{...}" />
-            <marker date="1439948872000" expanded="true" signature="34370:34666" placeholder="/**...*/" />
-            <marker date="1439948872000" expanded="true" signature="34748:34836" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2852,22 +2991,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2991453">
           <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
-          <folding>
-            <marker date="1459727087000" expanded="true" signature="48:231" placeholder="..." />
-            <marker date="1459727087000" expanded="true" signature="233:273" placeholder="/**...*/" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/util/NasaUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50955415">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1459727392000" expanded="true" signature="45:120" placeholder="..." />
-            <marker date="1459727392000" expanded="true" signature="122:161" placeholder="/**...*/" />
-            <marker date="1459727392000" expanded="true" signature="242:334" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2875,84 +2998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4467005">
           <caret line="308" column="40" selection-start-line="308" selection-start-column="40" selection-end-line="308" selection-end-column="40" />
-          <folding>
-            <marker date="1459720663000" expanded="false" signature="0:104" placeholder="/.../" />
-            <marker date="1459720663000" expanded="false" signature="159:1835" placeholder="..." />
-            <marker date="1459720663000" expanded="true" signature="3653:3815" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="3878:5783" placeholder="{...}" />
-            <marker date="1459720663000" expanded="false" signature="4012:4077" placeholder="run() → { " />
-            <marker date="1459720663000" expanded="false" signature="4113:4137" placeholder=" }" />
-            <marker date="1459720663000" expanded="false" signature="4332:4400" placeholder="onClick(view) → {" />
-            <marker date="1459720663000" expanded="false" signature="5484:5499" placeholder="}" />
-            <marker date="1459720663000" expanded="true" signature="5836:6472" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="6498:8835" placeholder="{...}" />
-            <marker date="1459720663000" expanded="false" signature="7443:7508" placeholder="onClick(v) → {" />
-            <marker date="1459720663000" expanded="false" signature="8044:8059" placeholder="}" />
-            <marker date="1459720663000" expanded="false" signature="8106:8171" placeholder="onClick(v) → {" />
-            <marker date="1459720663000" expanded="false" signature="8707:8722" placeholder="}" />
-            <marker date="1459720663000" expanded="true" signature="8872:9391" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="9427:10366" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="10405:13066" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="13127:13580" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="13642:13854" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="13929:14041" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="14096:14273" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="14338:14462" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="14515:14718" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="14775:15145" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="15199:15709" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="15763:15905" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="15966:16088" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="16144:16682" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="16730:16833" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="16920:17087" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="17167:17881" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="17935:18624" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="18680:18926" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="18985:22357" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="22410:22475" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="22579:22649" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="22753:22823" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="22883:22939" placeholder="{...}" />
-            <marker date="1459720663000" expanded="false" signature="22987:22998" placeholder=" { " />
-            <marker date="1459720663000" expanded="false" signature="23024:23030" placeholder=" }" />
-            <marker date="1459720663000" expanded="true" signature="23101:23155" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="23229:23297" placeholder="{...}" />
-            <marker date="1459720663000" expanded="false" signature="23352:23363" placeholder=" { " />
-            <marker date="1459720663000" expanded="false" signature="23401:23407" placeholder=" }" />
-            <marker date="1459720663000" expanded="true" signature="23487:23565" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="23633:23699" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="23773:23845" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="23915:23983" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="24061:24137" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="24221:24303" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="24371:24437" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="24509:24579" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="24643:24705" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="24767:24827" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="24887:24998" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="25058:25169" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="25238:25342" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="25411:25515" placeholder="{...}" />
-            <marker date="1459720663000" expanded="false" signature="25550:25561" placeholder=" { " />
-            <marker date="1459720663000" expanded="false" signature="25583:25589" placeholder=" }" />
-            <marker date="1459720663000" expanded="false" signature="25640:25651" placeholder=" { " />
-            <marker date="1459720663000" expanded="false" signature="25679:25685" placeholder=" }" />
-            <marker date="1459720663000" expanded="false" signature="25716:25727" placeholder=" { " />
-            <marker date="1459720663000" expanded="false" signature="25789:25795" placeholder=" }" />
-            <marker date="1459720663000" expanded="true" signature="25833:25947" placeholder="{...}" />
-            <marker date="1459720663000" expanded="false" signature="25983:25994" placeholder=" { " />
-            <marker date="1459720663000" expanded="false" signature="26039:26045" placeholder=" }" />
-            <marker date="1459720663000" expanded="false" signature="26089:26100" placeholder=" { " />
-            <marker date="1459720663000" expanded="false" signature="26135:26141" placeholder=" }" />
-            <marker date="1459720663000" expanded="true" signature="26187:26243" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="26289:26345" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="26420:28620" placeholder="{...}" />
-            <marker date="1459720663000" expanded="true" signature="26463:26474" placeholder="{...}" />
-            <marker date="1459720663000" expanded="false" signature="26520:26535" placeholder=" { " />
-            <marker date="1459720663000" expanded="false" signature="26547:26557" placeholder=" }" />
-            <marker date="1459720663000" expanded="true" signature="26656:28614" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2960,169 +3005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33254156">
           <caret line="972" column="40" selection-start-line="972" selection-start-column="40" selection-end-line="972" selection-end-column="40" />
-          <folding>
-            <marker date="1439948870000" expanded="false" signature="0:812" placeholder="/.../" />
-            <marker date="1439948870000" expanded="false" signature="841:1084" placeholder="..." />
-            <marker date="1439948870000" expanded="true" signature="1086:13170" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="13339:13750" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="13792:14122" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="14156:14696" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="14733:14998" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="15037:15216" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="15453:15551" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="15598:15697" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="15745:15843" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="15888:15987" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="16032:16130" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="16173:16271" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="16315:16415" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="16459:16558" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="16604:16702" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="16751:16849" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="16896:16997" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="17046:17146" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="17195:17385" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="17436:17512" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="17558:17634" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="17680:17757" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="17804:17883" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="17932:18010" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="18058:18134" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="18180:18258" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="18306:18578" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="18621:18775" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="18819:19333" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="19378:19825" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="19877:20328" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="20381:20608" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="20652:20863" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="20915:21082" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="21133:21559" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="21610:22887" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="22947:23200" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="23245:23515" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="23560:23801" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="23853:24019" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="24066:24235" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="24282:24462" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="24514:24896" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="24948:25418" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="25469:25540" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="25592:25718" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="25760:25886" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="25928:26072" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="26122:26260" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="26305:26446" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="26814:26926" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="false" signature="26951:26962" placeholder=" { " />
-            <marker date="1439948870000" expanded="false" signature="27011:27017" placeholder=" }" />
-            <marker date="1439948870000" expanded="true" signature="27051:27238" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="27244:27354" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="27412:27707" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="27714:28083" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="28141:28734" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="28777:28943" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="28949:29544" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="29588:29754" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="29760:29979" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="30010:30174" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="30180:30384" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="30424:30530" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="30536:30745" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="30786:31122" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="31128:31471" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="31502:31703" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="31709:31783" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="31834:32053" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="32102:32432" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="32488:32999" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="33005:33540" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="33571:33628" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="33634:33788" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="33832:34251" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="34257:34342" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="34386:34809" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="34815:35012" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="35075:35132" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="35138:35217" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="false" signature="35252:35263" placeholder=" { " />
-            <marker date="1439948870000" expanded="false" signature="35285:35291" placeholder=" }" />
-            <marker date="1439948870000" expanded="true" signature="35297:35474" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="35535:35726" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="35780:35791" placeholder=" { " />
-            <marker date="1439948870000" expanded="true" signature="35822:35828" placeholder=" }" />
-            <marker date="1439948870000" expanded="true" signature="35834:36023" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="36091:36144" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="36150:36339" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="36411:36466" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="36472:36659" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="36746:36809" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="36815:36995" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="37053:37213" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="37266:37340" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="false" signature="37383:37394" placeholder=" { " />
-            <marker date="1439948870000" expanded="false" signature="37424:37430" placeholder=" }" />
-            <marker date="1439948870000" expanded="true" signature="37436:37597" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="37650:37913" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="false" signature="37945:37956" placeholder=" { " />
-            <marker date="1439948870000" expanded="false" signature="37991:37997" placeholder=" }" />
-            <marker date="1439948870000" expanded="true" signature="38003:38311" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="38346:38467" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="38473:38544" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="false" signature="38578:38589" placeholder=" { " />
-            <marker date="1439948870000" expanded="false" signature="38601:38607" placeholder=" }" />
-            <marker date="1439948870000" expanded="true" signature="38649:38795" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="38801:38877" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="false" signature="38924:38935" placeholder=" { " />
-            <marker date="1439948870000" expanded="false" signature="38956:38962" placeholder=" }" />
-            <marker date="1439948870000" expanded="true" signature="38968:39099" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="false" signature="39130:39141" placeholder=" { " />
-            <marker date="1439948870000" expanded="false" signature="39156:39162" placeholder=" }" />
-            <marker date="1439948870000" expanded="true" signature="39168:39945" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="false" signature="39987:39998" placeholder=" { " />
-            <marker date="1439948870000" expanded="false" signature="40018:40024" placeholder=" }" />
-            <marker date="1439948870000" expanded="true" signature="40030:40287" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="40331:40514" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="40520:40774" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="40841:40900" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="40943:41324" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="41330:41582" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="41639:41722" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="41728:42001" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="42085:42189" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="42195:42476" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="42572:42658" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="42664:42809" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="false" signature="42854:42865" placeholder=" { " />
-            <marker date="1439948870000" expanded="false" signature="42888:42894" placeholder=" }" />
-            <marker date="1439948870000" expanded="true" signature="42900:43030" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="false" signature="43072:43083" placeholder=" { " />
-            <marker date="1439948870000" expanded="false" signature="43099:43105" placeholder=" }" />
-            <marker date="1439948870000" expanded="true" signature="43111:43182" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="false" signature="43235:43246" placeholder=" { " />
-            <marker date="1439948870000" expanded="false" signature="43277:43283" placeholder=" }" />
-            <marker date="1439948870000" expanded="true" signature="43289:43347" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="false" signature="43388:43399" placeholder=" { " />
-            <marker date="1439948870000" expanded="false" signature="43431:43437" placeholder=" }" />
-            <marker date="1439948870000" expanded="true" signature="43443:43580" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="43632:43837" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="43843:43910" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="43958:44020" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="44026:44132" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="44176:44949" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="44955:45532" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="45584:46012" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="46018:46747" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="46818:47152" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="47232:47839" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="47887:48044" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="48050:48746" placeholder="/**...*/" />
-            <marker date="1439948870000" expanded="true" signature="48832:49293" placeholder="{...}" />
-            <marker date="1439948870000" expanded="false" signature="48930:48947" placeholder="&lt;~&gt;" />
-            <marker date="1439948870000" expanded="true" signature="49380:49621" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="50423:51095" placeholder="{...}" />
-            <marker date="1439948870000" expanded="true" signature="51194:51813" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3192,12 +3074,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.66239315">
           <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
-          <folding>
-            <marker date="1459731354000" expanded="true" signature="48:280" placeholder="..." />
-            <marker date="1459731354000" expanded="true" signature="282:322" placeholder="/**...*/" />
-            <marker date="1459731354000" expanded="true" signature="498:788" placeholder="{...}" />
-            <marker date="1459731354000" expanded="true" signature="830:1177" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3205,12 +3081,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6196581">
           <caret line="29" column="64" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
-          <folding>
-            <marker date="1459732166000" expanded="true" signature="45:87" placeholder="..." />
-            <marker date="1459732166000" expanded="true" signature="89:128" placeholder="/**...*/" />
-            <marker date="1459732166000" expanded="true" signature="213:445" placeholder="{...}" />
-            <marker date="1459732166000" expanded="true" signature="506:820" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3234,101 +3104,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8504273">
-          <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
-          <folding>
-            <marker date="1459732973000" expanded="true" signature="49:1025" placeholder="{...}" />
-            <marker date="1459732973000" expanded="true" signature="126:281" placeholder="{...}" />
-            <marker date="1459732973000" expanded="true" signature="297:813" placeholder="{...}" />
-            <marker date="1459732973000" expanded="true" signature="314:552" placeholder="{...}" />
-            <marker date="1459732973000" expanded="true" signature="570:807" placeholder="{...}" />
-            <marker date="1459732973000" expanded="true" signature="831:841" placeholder="{" />
-            <marker date="1459732973000" expanded="true" signature="855:861" placeholder="}" />
-            <marker date="1459732973000" expanded="true" signature="879:889" placeholder="{" />
-            <marker date="1459732973000" expanded="true" signature="913:919" placeholder="}" />
-            <marker date="1459732973000" expanded="true" signature="942:952" placeholder="{" />
-            <marker date="1459732973000" expanded="true" signature="1017:1023" placeholder="}" />
-            <marker date="1459732973000" expanded="true" signature="1040:1838" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/ApodResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25641027">
           <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding>
-            <marker date="1459116280000" expanded="true" signature="90:130" placeholder="/**...*/" />
-            <marker date="1459116280000" expanded="false" signature="623:634" placeholder=" { " />
-            <marker date="1459116280000" expanded="false" signature="646:652" placeholder=" }" />
-            <marker date="1459116280000" expanded="false" signature="690:701" placeholder=" { " />
-            <marker date="1459116280000" expanded="false" signature="718:724" placeholder=" }" />
-            <marker date="1459116280000" expanded="false" signature="760:771" placeholder=" { " />
-            <marker date="1459116280000" expanded="false" signature="790:796" placeholder=" }" />
-            <marker date="1459116280000" expanded="false" signature="848:859" placeholder=" { " />
-            <marker date="1459116280000" expanded="false" signature="890:896" placeholder=" }" />
-            <marker date="1459116280000" expanded="false" signature="931:942" placeholder=" { " />
-            <marker date="1459116280000" expanded="false" signature="960:966" placeholder=" }" />
-            <marker date="1459116280000" expanded="false" signature="1016:1027" placeholder=" { " />
-            <marker date="1459116280000" expanded="false" signature="1056:1062" placeholder=" }" />
-            <marker date="1459116280000" expanded="false" signature="1096:1107" placeholder=" { " />
-            <marker date="1459116280000" expanded="false" signature="1124:1130" placeholder=" }" />
-            <marker date="1459116280000" expanded="false" signature="1178:1189" placeholder=" { " />
-            <marker date="1459116280000" expanded="false" signature="1216:1222" placeholder=" }" />
-            <marker date="1459116280000" expanded="false" signature="1261:1272" placeholder=" { " />
-            <marker date="1459116280000" expanded="false" signature="1294:1300" placeholder=" }" />
-            <marker date="1459116280000" expanded="false" signature="1358:1369" placeholder=" { " />
-            <marker date="1459116280000" expanded="false" signature="1406:1412" placeholder=" }" />
-            <marker date="1459116280000" expanded="false" signature="1442:1453" placeholder=" { " />
-            <marker date="1459116280000" expanded="false" signature="1466:1472" placeholder=" }" />
-            <marker date="1459116280000" expanded="false" signature="1512:1523" placeholder=" { " />
-            <marker date="1459116280000" expanded="false" signature="1542:1548" placeholder=" }" />
-            <marker date="1459116280000" expanded="false" signature="1581:1592" placeholder=" { " />
-            <marker date="1459116280000" expanded="false" signature="1608:1614" placeholder=" }" />
-            <marker date="1459116280000" expanded="false" signature="1660:1671" placeholder=" { " />
-            <marker date="1459116280000" expanded="false" signature="1696:1702" placeholder=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/attrs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15486726">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding>
-            <marker date="1459733102000" expanded="true" signature="10:495" placeholder="..." />
-            <marker date="1459733102000" expanded="true" signature="21:269" placeholder="..." />
-            <marker date="1459733102000" expanded="true" signature="326:481" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/fragments/ApodFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5987261">
-          <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-          <folding>
-            <marker date="1459734610000" expanded="true" signature="56:1398" placeholder="..." />
-            <marker date="1459734610000" expanded="true" signature="1776:1783" placeholder="{...}" />
-            <marker date="1459734610000" expanded="true" signature="1930:2179" placeholder="{...}" />
-            <marker date="1459734610000" expanded="true" signature="2211:3696" placeholder="{...}" />
-            <marker date="1459734610000" expanded="true" signature="2807:3687" placeholder="{...}" />
-            <marker date="1459734610000" expanded="true" signature="2890:3068" placeholder="{...}" />
-            <marker date="1459734610000" expanded="true" signature="3140:3677" placeholder="{...}" />
-            <marker date="1459734610000" expanded="true" signature="3736:5661" placeholder="{...}" />
-            <marker date="1459734610000" expanded="true" signature="4395:5653" placeholder="{...}" />
-            <marker date="1459734610000" expanded="true" signature="4474:4497" placeholder="{...}" />
-            <marker date="1459734610000" expanded="false" signature="4581:4608" placeholder=" { " />
-            <marker date="1459734610000" expanded="false" signature="4645:4667" placeholder=" }" />
-            <marker date="1459734610000" expanded="true" signature="4771:5634" placeholder="{...}" />
-            <marker date="1459734610000" expanded="true" signature="4967:5609" placeholder="{...}" />
-            <marker date="1459734610000" expanded="true" signature="5075:5368" placeholder="{...}" />
-            <marker date="1459734610000" expanded="true" signature="5474:5575" placeholder="{...}" />
-            <marker date="1459734610000" expanded="true" signature="5716:6014" placeholder="{...}" />
-            <marker date="1459734610000" expanded="true" signature="6070:6410" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3336,16 +3115,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.477707">
           <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <marker date="1459702683000" expanded="true" signature="54:191" placeholder="..." />
-            <marker date="1459702683000" expanded="true" signature="193:233" placeholder="/**...*/" />
-            <marker date="1459702683000" expanded="false" signature="404:415" placeholder=" { " />
-            <marker date="1459702683000" expanded="false" signature="428:434" placeholder=" }" />
-            <marker date="1459702683000" expanded="true" signature="475:551" placeholder="{...}" />
-            <marker date="1459702683000" expanded="false" signature="601:612" placeholder=" { " />
-            <marker date="1459702683000" expanded="false" signature="631:637" placeholder=" }" />
-            <marker date="1459702683000" expanded="true" signature="690:784" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3369,97 +3138,299 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06912442">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.53418803">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding>
-            <marker date="1459736085000" expanded="true" signature="10:1399" placeholder="..." />
-            <marker date="1459736085000" expanded="true" signature="122:368" placeholder="..." />
-            <marker date="1459736085000" expanded="true" signature="409:519" placeholder="..." />
+            <marker date="1459996583000" expanded="true" signature="113:447" placeholder="{...}" />
+            <marker date="1459996583000" expanded="true" signature="132:222" placeholder="{...}" />
+            <marker date="1459996583000" expanded="true" signature="167:181" placeholder="{" />
+            <marker date="1459996583000" expanded="true" signature="205:215" placeholder="}" />
+            <marker date="1459996583000" expanded="true" signature="240:445" placeholder="{...}" />
+            <marker date="1459996583000" expanded="true" signature="315:439" placeholder="..." />
+            <marker date="1459996583000" expanded="true" signature="461:571" placeholder="{...}" />
+            <marker date="1459996583000" expanded="true" signature="480:569" placeholder="{...}" />
+            <marker date="1459996583000" expanded="true" signature="515:529" placeholder="{" />
+            <marker date="1459996583000" expanded="true" signature="553:563" placeholder="}" />
+            <marker date="1459996583000" expanded="true" signature="598:604" placeholder="{" />
+            <marker date="1459996583000" expanded="true" signature="631:633" placeholder="}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/NasaActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1843318">
-          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.08547009">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="25" />
           <folding>
-            <marker date="1459738212000" expanded="true" signature="10:459" placeholder="..." />
-            <marker date="1459738212000" expanded="true" signature="51:446" placeholder="..." />
+            <marker date="1459115374000" expanded="false" signature="40:107" placeholder="..." />
+            <marker date="1459115374000" expanded="false" signature="232:243" placeholder=" { " />
+            <marker date="1459115374000" expanded="false" signature="278:284" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/br/com/rads/nasathings/ExampleUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25641027">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/patents/response/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14957266">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <marker date="1459129038000" expanded="false" signature="57:143" placeholder="..." />
+            <marker date="1459129038000" expanded="true" signature="145:185" placeholder="/**...*/" />
+            <marker date="1459129038000" expanded="false" signature="577:588" placeholder=" { " />
+            <marker date="1459129038000" expanded="false" signature="600:606" placeholder=" }" />
+            <marker date="1459129038000" expanded="false" signature="644:655" placeholder=" { " />
+            <marker date="1459129038000" expanded="false" signature="672:678" placeholder=" }" />
+            <marker date="1459129038000" expanded="false" signature="709:720" placeholder=" { " />
+            <marker date="1459129038000" expanded="false" signature="734:740" placeholder=" }" />
+            <marker date="1459129038000" expanded="false" signature="782:793" placeholder=" { " />
+            <marker date="1459129038000" expanded="false" signature="814:820" placeholder=" }" />
+            <marker date="1459129038000" expanded="false" signature="853:864" placeholder=" { " />
+            <marker date="1459129038000" expanded="false" signature="880:886" placeholder=" }" />
+            <marker date="1459129038000" expanded="false" signature="932:943" placeholder=" { " />
+            <marker date="1459129038000" expanded="false" signature="968:974" placeholder=" }" />
+            <marker date="1459129038000" expanded="false" signature="1004:1015" placeholder=" { " />
+            <marker date="1459129038000" expanded="false" signature="1028:1034" placeholder=" }" />
+            <marker date="1459129038000" expanded="false" signature="1074:1085" placeholder=" { " />
+            <marker date="1459129038000" expanded="false" signature="1104:1110" placeholder=" }" />
+            <marker date="1459129038000" expanded="false" signature="1142:1153" placeholder=" { " />
+            <marker date="1459129038000" expanded="false" signature="1168:1174" placeholder=" }" />
+            <marker date="1459129038000" expanded="false" signature="1218:1229" placeholder=" { " />
+            <marker date="1459129038000" expanded="false" signature="1252:1258" placeholder=" }" />
+            <marker date="1459129038000" expanded="false" signature="1288:1299" placeholder=" { " />
+            <marker date="1459129038000" expanded="false" signature="1312:1318" placeholder=" }" />
+            <marker date="1459129038000" expanded="false" signature="1358:1369" placeholder=" { " />
+            <marker date="1459129038000" expanded="false" signature="1388:1394" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.93630576">
+          <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54140127">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0256411">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <marker date="1460422919000" expanded="true" signature="49:1223" placeholder="{...}" />
+            <marker date="1460422919000" expanded="true" signature="126:281" placeholder="{...}" />
+            <marker date="1460422919000" expanded="true" signature="297:887" placeholder="{...}" />
+            <marker date="1460422919000" expanded="true" signature="314:592" placeholder="{...}" />
+            <marker date="1460422919000" expanded="true" signature="610:881" placeholder="{...}" />
+            <marker date="1460422919000" expanded="true" signature="905:915" placeholder="{" />
+            <marker date="1460422919000" expanded="true" signature="929:935" placeholder="}" />
+            <marker date="1460422919000" expanded="true" signature="953:963" placeholder="{" />
+            <marker date="1460422919000" expanded="true" signature="987:993" placeholder="}" />
+            <marker date="1460422919000" expanded="true" signature="1016:1026" placeholder="{" />
+            <marker date="1460422919000" expanded="true" signature="1091:1097" placeholder="}" />
+            <marker date="1460422919000" expanded="true" signature="1123:1221" placeholder="{...}" />
+            <marker date="1460422919000" expanded="true" signature="1171:1185" placeholder="{" />
+            <marker date="1460422919000" expanded="true" signature="1171:1215" placeholder="{...}" />
+            <marker date="1460422919000" expanded="true" signature="1205:1215" placeholder="}" />
+            <marker date="1460422919000" expanded="true" signature="1228:1234" placeholder="{" />
+            <marker date="1460422919000" expanded="true" signature="1266:1268" placeholder="}" />
+            <marker date="1460422919000" expanded="true" signature="1283:2145" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40268457">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.6415929">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
           <folding>
-            <marker date="1459738273000" expanded="true" signature="107:1380" placeholder="..." />
-            <marker date="1459738273000" expanded="true" signature="231:1367" placeholder="..." />
-            <marker date="1459738273000" expanded="false" signature="372:390" placeholder="&quot;Nasa Stuff&quot;" />
-            <marker date="1459738273000" expanded="true" signature="534:900" placeholder="..." />
-            <marker date="1459738273000" expanded="true" signature="602:620" placeholder="&quot;Nasa Stuff&quot;" />
-            <marker date="1459738273000" expanded="true" signature="704:880" placeholder="..." />
-            <marker date="1459738273000" expanded="true" signature="919:1348" placeholder="..." />
-            <marker date="1459738273000" expanded="false" signature="1080:1115" placeholder="&quot;FullImageActivity&quot;" />
-            <marker date="1459738273000" expanded="true" signature="1195:1328" placeholder="..." />
-            <marker date="1459738273000" expanded="true" signature="1348:1367" placeholder="..." />
+            <marker date="1460423769000" expanded="true" signature="107:1381" placeholder="..." />
+            <marker date="1460423769000" expanded="true" signature="231:1368" placeholder="..." />
+            <marker date="1460423769000" expanded="false" signature="372:390" placeholder="&quot;Nasa Stuff&quot;" />
+            <marker date="1460423769000" expanded="true" signature="534:900" placeholder="..." />
+            <marker date="1460423769000" expanded="true" signature="602:620" placeholder="&quot;Nasa Stuff&quot;" />
+            <marker date="1460423769000" expanded="true" signature="704:880" placeholder="..." />
+            <marker date="1460423769000" expanded="true" signature="920:1349" placeholder="..." />
+            <marker date="1460423769000" expanded="false" signature="1081:1116" placeholder="&quot;FullImageActivity&quot;" />
+            <marker date="1460423769000" expanded="true" signature="1196:1329" placeholder="..." />
+            <marker date="1460423769000" expanded="true" signature="1349:1368" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/util/NasaUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14957266">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <marker date="1459727392000" expanded="false" signature="45:120" placeholder="..." />
+            <marker date="1459727392000" expanded="true" signature="122:161" placeholder="/**...*/" />
+            <marker date="1459727392000" expanded="true" signature="242:334" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14957266">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+          <folding>
+            <marker date="1460425277000" expanded="true" signature="33:73" placeholder="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/fragments/ApodFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.7991452">
+          <caret line="170" column="5" selection-start-line="170" selection-start-column="5" selection-end-line="170" selection-end-column="5" />
+          <folding>
+            <marker date="1460425277000" expanded="false" signature="56:1398" placeholder="..." />
+            <marker date="1460425277000" expanded="true" signature="1776:1783" placeholder="{...}" />
+            <marker date="1460425277000" expanded="true" signature="1930:2179" placeholder="{...}" />
+            <marker date="1460425277000" expanded="true" signature="2211:3696" placeholder="{...}" />
+            <marker date="1460425277000" expanded="true" signature="2807:3687" placeholder="{...}" />
+            <marker date="1460425277000" expanded="true" signature="2890:3068" placeholder="{...}" />
+            <marker date="1460425277000" expanded="true" signature="3140:3677" placeholder="{...}" />
+            <marker date="1460425277000" expanded="true" signature="3736:5661" placeholder="{...}" />
+            <marker date="1460425277000" expanded="true" signature="4395:5653" placeholder="{...}" />
+            <marker date="1460425277000" expanded="true" signature="4474:4497" placeholder="{...}" />
+            <marker date="1460425277000" expanded="false" signature="4581:4608" placeholder=" { " />
+            <marker date="1460425277000" expanded="false" signature="4645:4667" placeholder=" }" />
+            <marker date="1460425277000" expanded="true" signature="4771:5634" placeholder="{...}" />
+            <marker date="1460425277000" expanded="true" signature="4967:5609" placeholder="{...}" />
+            <marker date="1460425277000" expanded="true" signature="5075:5368" placeholder="{...}" />
+            <marker date="1460425277000" expanded="true" signature="5474:5575" placeholder="{...}" />
+            <marker date="1460425277000" expanded="true" signature="5716:6014" placeholder="{...}" />
+            <marker date="1460425277000" expanded="true" signature="6070:6410" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/attrs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17699115">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <marker date="1459733102000" expanded="true" signature="10:495" placeholder="..." />
+            <marker date="1459733102000" expanded="true" signature="21:269" placeholder="..." />
+            <marker date="1459733102000" expanded="true" signature="326:481" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_full_image.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4846154">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+          <folding>
+            <marker date="1460427723000" expanded="true" signature="71:1241" placeholder="..." />
+            <marker date="1460427723000" expanded="true" signature="426:717" placeholder="..." />
+            <marker date="1460427723000" expanded="true" signature="736:1225" placeholder="..." />
+            <marker date="1460427723000" expanded="true" signature="911:1205" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-night/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4608295">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding>
+            <marker date="1459127004000" expanded="true" signature="49:748" placeholder="..." />
+            <marker date="1459127004000" expanded="true" signature="163:409" placeholder="..." />
+            <marker date="1459127004000" expanded="true" signature="450:560" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25345623">
+          <caret line="11" column="75" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
+          <folding>
+            <marker date="1460427673000" expanded="true" signature="10:692" placeholder="..." />
+            <marker date="1460427673000" expanded="true" signature="51:446" placeholder="..." />
+            <marker date="1460427673000" expanded="true" signature="532:679" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32258064">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <marker date="1460427647000" expanded="true" signature="10:932" placeholder="..." />
+            <marker date="1460427647000" expanded="true" signature="122:368" placeholder="..." />
+            <marker date="1460427647000" expanded="true" signature="409:519" placeholder="..." />
+            <marker date="1460427647000" expanded="true" signature="779:918" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/util/TintUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47008547">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <marker date="1460428151000" expanded="true" signature="45:365" placeholder="..." />
+            <marker date="1460428151000" expanded="true" signature="367:407" placeholder="/**...*/" />
+            <marker date="1460428151000" expanded="true" signature="508:700" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_apod_full.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4966443">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <marker date="1460428278000" expanded="true" signature="103:973" placeholder="..." />
+            <marker date="1460428278000" expanded="true" signature="171:342" placeholder="..." />
+            <marker date="1460428278000" expanded="true" signature="354:532" placeholder="..." />
+            <marker date="1460428278000" expanded="true" signature="544:739" placeholder="..." />
+            <marker date="1460428278000" expanded="true" signature="782:964" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/br/com/rads/nasathings/apod/activity/FullImageActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7324841">
-          <caret line="127" column="36" selection-start-line="127" selection-start-column="36" selection-end-line="127" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.84288746">
+          <caret line="230" column="0" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
           <folding>
-            <marker date="1459738403000" expanded="false" signature="54:953" placeholder="..." />
-            <marker date="1459738403000" expanded="true" signature="955:1102" placeholder="/**...*/" />
-            <marker date="1459738403000" expanded="true" signature="1346:1474" placeholder="/**...*/" />
-            <marker date="1459738403000" expanded="true" signature="1531:1673" placeholder="/**...*/" />
-            <marker date="1459738403000" expanded="true" signature="1739:1876" placeholder="/**...*/" />
-            <marker date="1459738403000" expanded="false" signature="2161:2259" placeholder="() → {" />
-            <marker date="1459738403000" expanded="true" signature="2272:2549" placeholder="//..." />
-            <marker date="1459738403000" expanded="false" signature="2940:2951" placeholder="}" />
-            <marker date="1459738403000" expanded="false" signature="3035:3097" placeholder="() → {" />
-            <marker date="1459738403000" expanded="false" signature="3347:3358" placeholder="}" />
-            <marker date="1459738403000" expanded="false" signature="3433:3508" placeholder="() → { " />
-            <marker date="1459738403000" expanded="false" signature="3515:3531" placeholder=" }" />
-            <marker date="1459738403000" expanded="true" signature="3537:3747" placeholder="/**...*/" />
-            <marker date="1459738403000" expanded="false" signature="3813:3928" placeholder="(view, motionEvent) → {" />
-            <marker date="1459738403000" expanded="false" signature="4055:4066" placeholder="}" />
-            <marker date="1459738403000" expanded="true" signature="4234:4683" placeholder="{...}" />
-            <marker date="1459738403000" expanded="true" signature="4715:5938" placeholder="{...}" />
-            <marker date="1459738403000" expanded="true" signature="4833:5929" placeholder="{...}" />
-            <marker date="1459738403000" expanded="true" signature="4936:5708" placeholder="{...}" />
-            <marker date="1459738403000" expanded="false" signature="5113:5259" placeholder="(view, x, y) → {" />
-            <marker date="1459738403000" expanded="false" signature="5310:5333" placeholder="}" />
-            <marker date="1459738403000" expanded="true" signature="5795:5811" placeholder="{...}" />
-            <marker date="1459738403000" expanded="true" signature="5903:5919" placeholder="{...}" />
-            <marker date="1459738403000" expanded="true" signature="5972:6224" placeholder="{...}" />
-            <marker date="1459738403000" expanded="true" signature="6299:6380" placeholder="{...}" />
-            <marker date="1459738403000" expanded="true" signature="6452:6640" placeholder="{...}" />
-            <marker date="1459738403000" expanded="true" signature="6668:6766" placeholder="{...}" />
-            <marker date="1459738403000" expanded="true" signature="6792:7244" placeholder="{...}" />
-            <marker date="1459738403000" expanded="true" signature="7302:7724" placeholder="{...}" />
-            <marker date="1459738403000" expanded="true" signature="7730:7849" placeholder="/**...*/" />
-            <marker date="1459738403000" expanded="true" signature="7896:8018" placeholder="{...}" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_full_image.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5769231">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
   </component>

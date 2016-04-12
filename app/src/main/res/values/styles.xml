@@ -17,16 +17,9 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-    <!--<style name="FullscreenTheme" parent="AppTheme">-->
-        <!--&lt;!&ndash;<item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>&ndash;&gt;-->
-        <!--<item name="android:windowActionBarOverlay">true</item>-->
-        <!--<item name="android:windowBackground">@null</item>-->
-        <!--<item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>-->
-        <!--<item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>-->
-    <!--</style>-->
-
-    <!--<style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">-->
-        <!--<item name="android:background">@color/black_overlay</item>-->
-    <!--</style>-->
+    <style name="Toolbar.Fullscreen" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
 
 </resources>
